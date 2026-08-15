@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio Page" />
+    <link rel="icon" type="image/x-icon" href="Assets/img/Portfolio.png" />
+    <title>My Portfolio Page</title>
+  </head>
+  <body>
+    <header>
+      <!-- Start navbar home section  -->
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contacts">Contact</a>
+      </nav>
+      <!-- end navbar home section  -->
+    </header>
+    <!-- Start About section  -->
+
+    <main id="about">
+      <h1>About Page</h1>
+      <p>
+        I am Marwan Junior Front_End Developer, A computer science student at
+        Capital universty ,I am 20 years old .
+      </p>
+      <img
+        src="Assets/img/IMG-20250222-WA0048 (2).jpg"
+        alt="My Image"
+        width="300px"
+      />
+    </main>
+    <!-- end about home section  -->
+    <hr />
+    <!-- start skills section  -->
+    <section id="skills">
+      <h2>My Skills</h2>
+      <ul>
+        <li><strong>Responsive Design</strong></li>
+        <li>Web design</li>
+        <li>Git & Github</li>
+        <li>Bootstrap</li>
+        <li>Tailwind</li>
+      </ul>
+      <ol>
+        <li><em>Html</em></li>
+        <li>Css</li>
+        <li>Javascript</li>
+        <li>Advanced <mark>Javascript</mark></li>
+      </ol>
+    </section>
+    <!-- end skills section  -->
+    <hr />
+    <!-- start courses section  -->
+    <section>
+      <caption>
+        My Courses
+      </caption>
+      <br />
+      <br />
+      <table border="1" width="600px">
+        <thead>
+          <tr>
+            <th>Course Name</th>
+            <th>Duration</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Front_End</td>
+            <td>3 monthes</td>
+            <td>Done</td>
+          </tr>
+          <tr>
+            <td>Back_End</td>
+            <td>4 monthes</td>
+            <td>In progress</td>
+          </tr>
+          <tr>
+            <td>UI & UX</td>
+            <td>2 monthes</td>
+            <td>In The Future</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>Vision</td>
+            <td colspan="2">FullStack Engineer</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+    <!-- end courses section  -->
+    <!-- start Gallary section  -->
+    <section>
+      <figure>
+        <img
+          src="Assets/img/7ab5a39181e70c6e3366cdd39fceb2c4.png"
+          alt="watch1"
+          width="200px"
+        />
+        <figcaption>Lorem ipsum dolor sit.</figcaption>
+      </figure>
+      <figure>
+        <img
+          src="Assets/img/af413a7c2519c8754afb933f719612c1.png"
+          alt="watch2"
+          width="200px"
+        />
+        <figcaption>Lorem ipsum dolor sit.</figcaption>
+      </figure>
+      <figure>
+        <img
+          src="Assets/img/d00844a6931824a6a99106896eb97e4a.png"
+          alt="watch3"
+          width="200px"
+        />
+        <figcaption>Lorem ipsum dolor sit.</figcaption>
+      </figure>
+    </section>
+    <!-- end Gallary section  -->
+    <hr />
+    <br />
+    <!-- start contact section  -->
+    <section id="contacts">
+      <form>
+        <table>
+          <tr>
+            <td><label for="">Name:</label></td>
+            <td>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Enter your name"
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="email">Email:</label></td>
+            <td><input type="email" name="email" id="email" required /></td>
+          </tr>
+
+          <tr>
+            <td><label for="phone">Phone Number :</label></td>
+            <td><input type="tel" name="phone" id="phone" /></td>
+          </tr>
+
+          <tr>
+            <td><label for="date">Date Of birth</label></td>
+            <td><input type="date" name="data" id="date" /></td>
+          </tr>
+
+          <tr>
+            <td><label for="messege">Messege:</label></td>
+            <td>
+              <textarea
+                type=""
+                name="messege"
+                id="messege"
+                cols="20"
+                rows="4"
+              ></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="">Topic:</label></td>
+            <td>
+              <select type="" name="" id="">
+                <option value="topic">Topic</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="contact">Email:</label></td>
+            <td><input type="radio" name="contact" id="contact" /></td>
+          </tr>
+          <tr>
+            <td><label for="way">Phone</label></td>
+            <td><input type="radio" name="contact" id="contact way" /></td>
+          </tr>
+          <tr>
+            <td><label for="condition">Agree conditions</label></td>
+            <td><input type="checkbox" name="condition" id="condition" /></td>
+          </tr>
+
+          <tr>
+            <td><button type="submit">Submit</button></td>
+            <td><button type="reset">Reset</button></td>
+          </tr>
+        </table>
+      </form>
+    </section>
+    <!-- end contact section  -->
+    <br />
+    <br />
+    <br />
+    <br />
+    <!-- start footer section  -->
+    <hr />
+    <br />
+    <footer>
+      <form>
+        <table>
+          <tr>
+            <td><label for="femail">Your Email</label></td>
+            <td><input type="email" name="femail" id="femail" /></td>
+          </tr>
+          <tr>
+            <td><label for="address">Your Address</label></td>
+            <td><input type="text" name="address" id="address" /></td>
+          </tr>
+        </table>
+      </form>
+      <br />
+      <br />
+      <span>&copy; Your rights is reserved</span>
+      <a href="#">Facebook</a>
+      <a href="#">Linkedin</a>
+    </footer>
+    <!-- end footer section  -->
+  </body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+</body>
+</html>

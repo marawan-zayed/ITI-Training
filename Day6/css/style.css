@@ -1,0 +1,50 @@
+:root {
+  --main-color: #1971c2;
+  --secondary-color: #099268;
+  --m-font-size: 20px;
+}
+header {
+  height: 70vh !important;
+}
+.header-section {
+  background-image: url(../img/IMG-20250222-WA0048\ \(2\).jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  max-width: 100%;
+  cursor: pointer;
+}
+header > h1 {
+  color: var(--main-color);
+}
+.header-section p {
+  color: var(--secondary-color);
+  font-size: var(--m-font-size);
+}
+h2 {
+  color: #1971c2; /* lower priority*/
+}
+.about-section h2 {
+  color: rgb(26, 138, 138); /*higher priority*/
+}
+
+#about-text {
+  :root {
+    --about-color: rgb(26, 58, 59);
+  }
+  font-size: var(--m-font-size);
+  color: var(--about-color);
+  cursor: grab;
+  overflow: auto;
+  width: 55vw;
+}
+
+footer {
+  background-color: bisque;
+  height: 3rem;
+  cursor: help;
+}
+footer:hover {
+  background-color: #1971c2;
+}

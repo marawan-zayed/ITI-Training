@@ -30,9 +30,9 @@ h2 {
 }
 
 #about-text {
-  :root {
+
     --about-color: rgb(26, 58, 59);
-  }
+  
   font-size: var(--m-font-size);
   color: var(--about-color);
   cursor: grab;

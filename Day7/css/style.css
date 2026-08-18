@@ -79,3 +79,6 @@ hr {
   width: 50%;
   letter-spacing: 1.5px;
 }
+.header-card button:hover {
+  background-color: #374881;
+}

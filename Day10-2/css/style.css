@@ -64,14 +64,7 @@
   left: 60px;
 }
 
-@media (max-width: 575px) {
-  .header-home {
-    background-position: right;
-  }
-  .header-home h3 {
-    font-size: 26px;
-  }
-}
+
 
 /* end header home section  */
 
@@ -87,11 +80,7 @@
   background-size: cover;
 }
 
-@media (max-width: 991px) {
-  .card-home {
-    height: 850px;
-  }
-}
+
 
 /* end card home section  */
 
@@ -140,14 +129,6 @@
   font-size: 35px;
 }
 
-@media only screen and(max-width:575px) {
-  .footer-home {
-    border-radius: 100px 100px 0px 0px;
-  }
-  .social-footer-home p {
-    margin-bottom: -12px;
-    padding-right: 36px;
-  }
-}
+
 
 /*end footer home section */

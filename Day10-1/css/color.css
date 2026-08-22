@@ -1,0 +1,11 @@
+:root {
+  --main-color: red;
+  --seconary-color: blue;
+  --text-color: white;
+  --nav-color: #0f3156;
+  --nav-bg: #17be7b;
+}
+
+.nav-color{
+  color: var(--nav-color);
+}

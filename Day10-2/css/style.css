@@ -1,0 +1,153 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* start header home section  */
+
+.header-home {
+  height: 640px;
+  background-image: url(../img/download.jpg);
+  background-size: cover;
+}
+/* start navbar home section  */
+
+.nav-home {
+  padding: 30px;
+  align-items: center;
+}
+.nav-home ul {
+  list-style-type: none;
+}
+
+.nav-home img {
+  width: 100px;
+}
+.nav-links {
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+}
+
+.nav-home button {
+  border: none;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+
+/* end navbar home section  */
+
+.header-home h3 {
+  font-size: 39px;
+  color: white;
+  background-color: #57a089d2;
+  border-radius: 11%;
+  word-spacing: 10px;
+  font-size: 33px;
+  background-color: #57a089d2;
+  word-spacing: 10px;
+  padding: 30px;
+  width: 80%;
+  height: 290px;
+  margin: 0 auto;
+  line-height: 1.7;
+  position: absolute;
+  top: 45px;
+  left: 60px;
+}
+
+@media (max-width: 575px) {
+  .header-home {
+    background-position: right;
+  }
+  .header-home h3 {
+    font-size: 26px;
+  }
+}
+
+/* end header home section  */
+
+/* start card home section  */
+
+.card-home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 750px;
+  background:
+    url(../img/Path\ 62.png), url(../img/i-love-my-job-so-much_329181-2178.png);
+  background-size: cover;
+}
+
+@media (max-width: 991px) {
+  .card-home {
+    height: 850px;
+  }
+}
+
+/* end card home section  */
+
+/* start footer home section */
+
+.footer-home {
+  background-color: #0f7b65;
+  height: 280px;
+  border-radius: 200px 200px 0px 0px;
+  color: #fff;
+  padding-top: 30px;
+  position: relative;
+}
+
+.footer-home p {
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.footer-content h4 {
+  color: #f38e7f;
+  font-size: 25px;
+}
+
+.footer-content a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.social-footer-home {
+  position: absolute;
+  left: 20px;
+  top: 180px;
+}
+
+.social-footer-home p {
+  font-size: 22px;
+}
+
+.social-footer-home a {
+  color: white;
+  font-size: 35px;
+}
+
+@media only screen and(max-width:575px) {
+  .footer-home {
+    border-radius: 100px 100px 0px 0px;
+  }
+  .social-footer-home p {
+    margin-bottom: -12px;
+    padding-right: 36px;
+  }
+}
+
+/*end footer home section */

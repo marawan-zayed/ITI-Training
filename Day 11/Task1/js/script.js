@@ -4,7 +4,7 @@
 // var x = undefined;
 // var y = null;
 
-var grade = window.prompt();
+var grade = Number(window.prompt(`Enter yout grade:`));
 if (grade > 90) {
   console.log(`Excellent`);
 } else if (grade >= 80 && grade <= 89) {

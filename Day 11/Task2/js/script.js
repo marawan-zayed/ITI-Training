@@ -1,4 +1,4 @@
-var number = window.prompt();
+var number = window.prompt(); 
 if (number > 0 && number % 2 == 0) {
   console.log(`Number is positive and even`);
 } else if (number > 0 && number % 2 == 1) {
